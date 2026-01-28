@@ -1,0 +1,183 @@
+{
+    "data_space": {
+        "types": [
+            {
+                "building": {
+                    "attributes": [
+                        {
+                            "name": "address",
+                            "description": "The address of the building"
+                        },
+                        {
+                            "name": "postal-code",
+                            "description": "The postal code of the city in which a building is located"
+                        },
+                        {
+                            "name": "located_in",
+                            "description": "The identifier of the building in which the device is located"
+                        }
+                    ],
+                    "description": "It represents a building."
+                },
+                "plug": {
+                    "attributes": [
+                        {
+                            "name": "status",
+                            "description": "Get or set the on/off status of plug"
+                        },
+                        {
+                            "name": "consumption",
+                            "description": "The consumption of the device within the last hour"
+                        },
+                        {
+                            "name": "located_in",
+                            "description": "The identifier of the building in which the device is located"
+                        }
+                    ],
+                    "description": "It represents a smart plug."
+                },
+                "thermometer": {
+                    "attributes": [
+                        {
+                            "name": "temperature",
+                            "description": "The current temperature of the building"
+                        },
+                        {
+                            "name": "located_in",
+                            "description": "The identifier of the building in which the device is located"
+                        }
+                    ],
+                    "description": "It represents a thermometer sensor."
+                },
+                "light_sensor": {
+                    "attributes": [
+                        {
+                            "name": "illuminance",
+                            "description": "The current light level in lux"
+                        },
+                        {
+                            "name": "located_in",
+                            "description": "The identifier of the building in which the device is located"
+                        }
+                    ],
+                    "description": "It represents a light sensor."
+                },
+                "humidity_sensor": {
+                    "attributes": [
+                        {
+                            "name": "humidity",
+                            "description": "The current relative humidity percentage"
+                        },
+                        {
+                            "name": "located_in",
+                            "description": "The identifier of the building in which the device is located"
+                        }
+                    ],
+                    "description": "It represents a humidity sensor."
+                },
+                "motion_detector": {
+                    "attributes": [
+                        {
+                            "name": "motion",
+                            "description": "Whether motion was detected in the last interval"
+                        },
+                        {
+                            "name": "sensitivity",
+                            "description": "The motion detection sensitivity level"
+                        },
+                        {
+                            "name": "located_in",
+                            "description": "The identifier of the building in which the device is located"
+                        }
+                    ],
+                    "description": "It represents a motion detector."
+                },
+                "smoke_alarm": {
+                    "attributes": [
+                        {
+                            "name": "alarm_state",
+                            "description": "The current alarm state of the device"
+                        },
+                        {
+                            "name": "battery_level",
+                            "description": "The current battery charge percentage"
+                        },
+                        {
+                            "name": "located_in",
+                            "description": "The identifier of the building in which the device is located"
+                        }
+                    ],
+                    "description": "It represents a smoke alarm."
+                },
+                "door_lock": {
+                    "attributes": [
+                        {
+                            "name": "lock_state",
+                            "description": "Whether the door is locked or unlocked"
+                        },
+                        {
+                            "name": "battery_level",
+                            "description": "The current battery charge percentage"
+                        },
+                        {
+                            "name": "located_in",
+                            "description": "The identifier of the building in which the device is located"
+                        }
+                    ],
+                    "description": "It represents a door lock."
+                },
+                "hvac_unit": {
+                    "attributes": [
+                        {
+                            "name": "mode",
+                            "description": "The current operating mode of the HVAC unit"
+                        },
+                        {
+                            "name": "setpoint",
+                            "description": "The target temperature setpoint"
+                        },
+                        {
+                            "name": "located_in",
+                            "description": "The identifier of the building in which the device is located"
+                        }
+                    ],
+                    "description": "It represents an HVAC unit."
+                },
+                "air_quality_sensor": {
+                    "attributes": [
+                        {
+                            "name": "co2",
+                            "description": "The current CO2 concentration in ppm"
+                        },
+                        {
+                            "name": "voc",
+                            "description": "The current volatile organic compound level"
+                        },
+                        {
+                            "name": "located_in",
+                            "description": "The identifier of the building in which the device is located"
+                        }
+                    ],
+                    "description": "It represents an air quality sensor."
+                },
+                "water_meter": {
+                    "attributes": [
+                        {
+                            "name": "flow_rate",
+                            "description": "The current water flow rate"
+                        },
+                        {
+                            "name": "consumption",
+                            "description": "The total water consumption"
+                        },
+                        {
+                            "name": "located_in",
+                            "description": "The identifier of the building in which the device is located"
+                        }
+                    ],
+                    "description": "It represents a water meter."
+                }
+            }
+        ]
+    }
+}

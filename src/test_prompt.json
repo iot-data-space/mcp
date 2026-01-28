@@ -1,0 +1,6 @@
+[
+{
+        "question":"Output only the number for the humidity reading of urn:mcp:humidity_sensor6",
+        "response":"47"
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "question":"Output only the number for the consumption reading of urn:mcp:plug1",
+        "response":"0.6"
+    },
+    {
+        "question":"Output only the number for the consumption reading of urn:mcp:plug2",
+        "response":"0.7"
+    },
+    {
+        "question":"Output only the number for the temperature reading of urn:mcp:thermometer4",
+        "response":"22"
+    },
+    {
+        "question":"Output only the number for the illuminance reading of urn:mcp:light_sensor3",
+        "response":"175"
+    },
+    {
+        "question":"Output only the number for the humidity reading of urn:mcp:humidity_sensor6",
+        "response":"47"
+    },
+    {
+        "question":"Output only the number for the average temperature in urn:mcp:building1",
+        "response":"20.5"
+    },
+    {
+        "question":"Output only the number for the average humidity in urn:mcp:building2",
+        "response":"42"
+    },
+    {
+        "question":"Output only the number for the average illuminance in urn:mcp:building4",
+        "response":"237.5"
+    },
+    {
+        "question":"Output only the number for the average power consumption in urn:mcp:building5",
+        "response":"1.15"
+    },
+    {
+        "question":"Output only the number for the average CO2 in urn:mcp:building3",
+        "response":"517.5"
+    },
+    {
+        "question":"Output only the number for the sum of consumption of all plugs",
+        "response":"10.5"
+    },
+    {
+        "question":"Output only the number for the sum of temperature of all thermometers",
+        "response":"225"
+    },
+    {
+        "question":"Output only the number for the sum of illuminance of all light sensors",
+        "response":"2375"
+    },
+    {
+        "question":"Output only the number for the sum of humidity of all humidity sensors",
+        "response":"460"
+    },
+    {
+        "question":"Output only the number for the sum of CO2 of all air quality sensors",
+        "response":"5325"
+    },
+    {
+        "question":"Output only the number for the sum of consumption of all plgs",
+        "response":"10.5"
+    },
+    {
+        "question":"Output only the number for the sum of temperature of all thermomters",
+        "response":"225"
+    },
+    {
+        "question":"Output only the number for the sum of illuminance of all lihgt sensors",
+        "response":"2375"
+    },
+    {
+        "question":"Output only the number for the sum of humiity of all humedity sensors",
+        "response":"460"
+    },
+    {
+        "question":"Output only the number for the sum of CO2 of all air qualety sensors",
+        "response":"5325"
+    },
+    {
+        "question":"Output only the number for the average HVAC setpoint in buildings where consumption is grater than 0.8",
+        "response":"22"
+    },
+    {
+        "question":"Output only the number for the sum of consumption of all plugs in buildings with postal-code 163 42",
+        "response":"4.2"
+    },
+    {
+        "question":"Output only the number for the average humidity in buildings with address containing Avanton",
+        "response":"45"
+    },
+    {
+        "question":"Output only the number for the average illuminance in buildings where door locks are unlocked",
+        "response":"237.5"
+    },
+    {
+        "question":"Output only the number for the sum of water consumption in buildings with at least one plug on",
+        "response":"1275"
+    },
+    {
+        "question":"Output only the number for the average temperature of buildings located in Chalkida Greece",
+        "response":"23.5"
+    },
+    {
+        "question":"Output only the number for the average temperature in buildings located in Troias street",
+        "response":"21"
+    },
+    {
+        "question":"Output the name of the street with the hottest building",
+        "response":"Haina"
+    },
+    {
+        "question":"Output only the name of the greek city with the most buildings",
+        "response":"Chalkida"
+    },
+    {
+        "question":"One of the buildings of the dataset has water leakage. Output only its identifier",
+        "response":"urn:mcp:building1"
+    }
+]
